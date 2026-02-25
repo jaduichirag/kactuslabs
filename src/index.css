@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #22c55e;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.btn-brand {
+  @apply bg-brand hover:bg-brand-dark text-white font-medium rounded-md px-4 py-2 transition;
+}
+
+.container-p {
+  @apply container mx-auto px-4;
+}
